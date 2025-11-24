@@ -15,7 +15,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 
 # --------------- Config UI ---------------
-st.set_page_config(page_title="Chat de Datos de la Empresa", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Consultas empresa Russitex", page_icon="📊", layout="wide")
 st.title("📊 Chat de Datos (Excel) — Carpeta específica")
 
 # API Key

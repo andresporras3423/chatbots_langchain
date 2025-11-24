@@ -11,7 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 # ---------------------- Configuración básica UI ----------------------
 st.set_page_config(page_title="Demo RAG simple", page_icon="💬", layout="wide")
-st.title("💬 Demo RAG con LangChain (memoria en código, sin historial)")
+st.title("💬 Exercise 1 - Natural Language processing - oscar Russi")
 
 # API Key
 api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY", "")
